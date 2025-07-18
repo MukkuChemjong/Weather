@@ -1,0 +1,76 @@
+/* Center ALL elements */
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  background: #f5f5f5; /* Optional background */
+}
+
+/* Header styling */
+.header {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+/* Input and button styling */
+.cityInput {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit {
+  padding: 10px 20px;
+  background: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Weather info container */
+.allWeatherInfo {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+/* Weather elements alignment */
+.imgStatusContainer,
+.tempHumidityFeelsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Temperature styling */
+.temperature, .feels, .humidity {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+/* Slider styling */
+#slider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Weather image */
+.imgStatus {
+  max-width: 150px;
+  margin: 20px auto;
+  display: block;
+}
